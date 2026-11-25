@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #060b16;
+  --foreground: #f8fafc;
+  --surface: #0b1324;
+  --surface-elevated: #111c33;
+  --accent: #2563eb;
+  --accent-hover: #3b82f6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}

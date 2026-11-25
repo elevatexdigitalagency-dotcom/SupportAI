@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SupportAI Widget External Test Page</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+        padding: 48px 24px;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      code {
+        background: #1e293b;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>External Website Widget Test</h1>
+    <p>
+      Replace <code>YOUR_CHATBOT_PUBLIC_ID</code> below with your chatbot's
+      <code>public_id</code> from <strong>Dashboard → Chatbots</strong>, ensure
+      the SupportAI backend is running at <code>http://127.0.0.1:8000</code>,
+      and reload this page to test the floating chat widget.
+    </p>
+    <script
+      src="http://127.0.0.1:8000/widget.js"
+      data-chatbot-id="YOUR_CHATBOT_PUBLIC_ID"
+      async
+    ></script>
+  </body>
+</html>

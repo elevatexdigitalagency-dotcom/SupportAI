@@ -1,0 +1,7 @@
+.env
+.jwt_secret
+.venv/
+__pycache__/
+*.pyc
+*.db-wal
+*.db-shm
